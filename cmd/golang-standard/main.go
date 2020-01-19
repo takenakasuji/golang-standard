@@ -13,4 +13,5 @@ func main() {
 
 	e.GET("/", handler.Index())
 
+	e.Start(":1234")
 }
